@@ -1,4 +1,4 @@
-BITCOIND=litecoind
+BITCOIND=birdcoind
 B1_FLAGS=
 B2_FLAGS=
 B1=$(BITCOIND) -datadir=1 $(B1_FLAGS)

@@ -1,4 +1,4 @@
-This is a private, difficulty 1 testnet in a box for litecoin - based off freewil's testnet-box for bitcoin (github.com/freewil/bitcoin-testnet-box).
+This is a private, difficulty 1 testnet in a box for birdcoin - based off freewil's testnet-box for bitcoin (github.com/freewil/bitcoin-testnet-box).
 
 Use it as follows:
 
@@ -7,7 +7,7 @@ Use it as follows:
 This will start two nodes. You need two because otherwise the node won't
 generate blocks. You now have a private testnet:
 
-  litecoind -datadir=1  getinfo
+  birdcoind -datadir=1  getinfo
   {
       "version" : 60300,
       "protocolversion" : 60001,
@@ -25,7 +25,7 @@ generate blocks. You now have a private testnet:
       "errors" : ""
   }
 
-  litecoind -datadir=2  getinfo
+  birdcoind -datadir=2  getinfo
   {
       "version" : 60300,
       "protocolversion" : 60001,
